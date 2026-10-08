@@ -174,3 +174,121 @@ export function getHelpWhatsAppUrl(topic: string, details?: string): string {
 
   return buildWhatsAppUrl(lines.join('\n'));
 }
+
+/**
+ * Fitment Inquiry WhatsApp message ("Will This Fit My Bike?")
+ */
+export interface FitmentInquiryParams {
+  bikeBrand: string;
+  bikeModel: string;
+  year?: string;
+  productName?: string;
+  question?: string;
+}
+
+export function getFitmentInquiryWhatsAppUrl(params: FitmentInquiryParams): string {
+  const lines: string[] = [
+    `Hi Bikerz Pitstop 👋`,
+    `I have a fitment enquiry for my motorcycle:`,
+    `Bike: ${params.bikeBrand} ${params.bikeModel}${params.year ? ` (${params.year})` : ''}`,
+  ];
+  if (params.productName) {
+    lines.push(`Product: ${params.productName}`);
+  }
+  lines.push(``);
+  lines.push(params.question || `Could you please confirm if this product fits my bike and if in-store fitment is available at your Coimbatore store?`);
+  lines.push(`Thank you.`);
+  return buildWhatsAppUrl(lines.join('\n'));
+}
+
+/**
+ * Build My Bike WhatsApp setup order
+ */
+export interface BuildMyBikeItem {
+  name: string;
+  price: number;
+  quantity?: number;
+  category?: string;
+}
+
+export interface BuildMyBikeParams {
+  bikeModel: string;
+  items: BuildMyBikeItem[];
+  totalAmount: number;
+}
+
+export function getBuildMyBikeWhatsAppUrl(params: BuildMyBikeParams): string {
+  const lines: string[] = [
+    `Hi Bikerz Pitstop 👋`,
+    `I would like to order my custom bike setup:`,
+    `Bike: ${params.bikeModel}`,
+    ``,
+    `Selected Accessories:`,
+  ];
+  params.items.forEach((item, idx) => {
+    lines.push(`${idx + 1}. ${item.name} - ${formatPrice(item.price)}${item.quantity && item.quantity > 1 ? ` (Qty: ${item.quantity})` : ''}`);
+  });
+  lines.push(``);
+  lines.push(`Total Accessories: ${params.items.length}`);
+  lines.push(`Total Amount: ${formatPrice(params.totalAmount)}`);
+  lines.push(``);
+  lines.push(`Please confirm stock availability and Coimbatore store fitting.`);
+  lines.push(`Thank you.`);
+  return buildWhatsAppUrl(lines.join('\n'));
+}
+
+/**
+ * Emergency Rider Kit WhatsApp order
+ */
+export interface EmergencyKitParams {
+  items: { name: string; price: number; quantity?: number }[];
+  totalAmount: number;
+  bikeModel?: string;
+}
+
+export function getEmergencyKitWhatsAppUrl(params: EmergencyKitParams): string {
+  const lines: string[] = [
+    `Hi Bikerz Pitstop 👋`,
+    `I would like to order an Emergency Rider Kit:`,
+  ];
+  if (params.bikeModel) {
+    lines.push(`Bike: ${params.bikeModel}`);
+  }
+  lines.push(``);
+  lines.push(`Selected Emergency Gear:`);
+  params.items.forEach((item, idx) => {
+    lines.push(`${idx + 1}. ${item.name} - ${formatPrice(item.price)}`);
+  });
+  lines.push(``);
+  lines.push(`Total Kit Price: ${formatPrice(params.totalAmount)}`);
+  lines.push(``);
+  lines.push(`Please confirm stock availability and in-store pickup / delivery.`);
+  lines.push(`Thank you.`);
+  return buildWhatsAppUrl(lines.join('\n'));
+}
+
+/**
+ * Ask Bikerz AI assistant escalation WhatsApp message
+ */
+export interface AskBikerzEscalationParams {
+  bike?: string;
+  product?: string;
+  budget?: string;
+  question: string;
+}
+
+export function getAskBikerzEscalationWhatsAppUrl(params: AskBikerzEscalationParams): string {
+  const lines: string[] = [
+    `Hi Bikerz Pitstop 👋`,
+    `I was browsing with Ask Bikerz AI and need advice:`,
+  ];
+  if (params.bike) lines.push(`Bike: ${params.bike}`);
+  if (params.product) lines.push(`Product: ${params.product}`);
+  if (params.budget) lines.push(`Budget: ${params.budget}`);
+  lines.push(`Question: ${params.question}`);
+  lines.push(``);
+  lines.push(`Could you please verify availability, exact fitment and pricing?`);
+  lines.push(`Thank you.`);
+  return buildWhatsAppUrl(lines.join('\n'));
+}
+

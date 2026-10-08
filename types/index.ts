@@ -23,7 +23,8 @@ export type AccessorySubCategory =
   | 'USB Chargers'
   | 'Bike Covers'
   | 'Radiator Guards'
-  | 'Tank Grips';
+  | 'Tank Grips'
+  | 'Emergency & Tools';
 
 export type LightingSubCategory = 
   | 'Auxiliary Lights'

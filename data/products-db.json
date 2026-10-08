@@ -1,0 +1,1403 @@
+[
+  {
+    "id": "bp-helm-01",
+    "slug": "axor-apex-venomous-helmet",
+    "name": "Axor Apex Venomous Full Face Helmet",
+    "brand": "Axor",
+    "category": "Helmets",
+    "subCategory": "Full Face",
+    "price": 4999,
+    "mrp": 5499,
+    "images": [
+      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The Axor Apex Venomous is an ECE 22.05 and DOT certified sports touring helmet engineered with aerodynamic spoiler, internal drop-down sun visor, and max-flow ventilation ports for aggressive road touring.",
+    "specifications": {
+      "Certification": "ECE 22.05 & DOT Approved, ISI Certified",
+      "Shell Material": "High Performance ABS composite",
+      "Visor": "Scratch-resistant polycarbonate with Pinlock 30 prepared pins",
+      "Weight": "1600 ± 50 grams",
+      "Sun Visor": "Integrated one-touch drop down smoke shield",
+      "Retention System": "Double D-Ring lock for supreme track & highway security",
+      "Interior": "Removable, washable, hypoallergenic, breathable liner"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "sizes": [
+      "M (57-58cm)",
+      "L (59-60cm)",
+      "XL (61-62cm)"
+    ],
+    "colours": [
+      "Matte Black/Orange",
+      "Gloss Stealth Grey",
+      "Neon Red Racer"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": true,
+    "badge": "Bestseller",
+    "rating": 4.8,
+    "reviewCount": 42,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 4999,
+    "discountPercent": 9,
+    "createdAt": "2026-09-08T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-helm-02",
+    "slug": "mt-thunder-4-sv-solid-helmet",
+    "name": "MT Thunder 4 SV ECE 22.06 Helmet",
+    "brand": "MT Helmets",
+    "category": "Helmets",
+    "subCategory": "Full Face",
+    "price": 6850,
+    "mrp": 7500,
+    "images": [
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The next generation MT Thunder 4 SV complies with the strict new ECE 22.06 safety standard. Features an innovative quick-release spoiler system, internal sun visor, and revolutionary quick emergency cheek pad removal system.",
+    "specifications": {
+      "Certification": "ECE R-22.06 & DOT Certified, ISI approved",
+      "Shell Material": "HIRP (High Impact Resistant Polymer)",
+      "Visor": "MT-V-28B optical polycarbonate visor, 100% Max Vision Pinlock ready",
+      "Weight": "1500 ± 50 grams",
+      "Closure": "Micrometric steel ratchet buckle",
+      "Emergency Release": "Quick pull cheek release system"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "sizes": [
+      "S (55-56cm)",
+      "M (57-58cm)",
+      "L (59-60cm)",
+      "XL (61-62cm)"
+    ],
+    "colours": [
+      "Matte Black",
+      "Gloss Titanium",
+      "Solid Pearl White"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": true,
+    "popular": true,
+    "badge": "ECE 22.06 Certified",
+    "rating": 4.9,
+    "reviewCount": 29,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 6850,
+    "discountPercent": 9,
+    "createdAt": "2026-09-09T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-helm-03",
+    "slug": "smk-stellar-sports-helmet",
+    "name": "SMK Stellar Full Face Racing Helmet",
+    "brand": "SMK",
+    "category": "Helmets",
+    "subCategory": "Full Face",
+    "price": 3950,
+    "mrp": 4300,
+    "images": [
+      "https://images.unsplash.com/photo-1558980664-3a031cf67ea8?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "SMK Stellar is built for everyday commuters and weekend corner carvers who demand sporty aerodynamics, chin air-intakes, and lightweight ergonomics without burning a hole in the pocket.",
+    "specifications": {
+      "Certification": "ECE 22.05 & ISI",
+      "Shell Material": "Energy Impact Resistant Thermoplastic",
+      "Visor": "Quick release mechanism, UV & scratch resistant",
+      "Ventilation": "Dual chin and brow vents with rear hot-air extractors",
+      "Weight": "1450 grams"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "sizes": [
+      "M (57-58cm)",
+      "L (59-60cm)",
+      "XL (61-62cm)"
+    ],
+    "colours": [
+      "Matte Black/Red",
+      "Gloss Neon Yellow",
+      "Stealth Grey"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.6,
+    "reviewCount": 19,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 3950,
+    "discountPercent": 8,
+    "createdAt": "2026-09-10T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-helm-04",
+    "slug": "ls2-ff800-storm-solid-helmet",
+    "name": "LS2 FF800 Storm II Helmet",
+    "brand": "LS2",
+    "category": "Helmets",
+    "subCategory": "Full Face",
+    "price": 8400,
+    "mrp": 9200,
+    "images": [
+      "https://images.unsplash.com/photo-1558980394-4c7c9299fe96?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The LS2 FF800 Storm II offers high-end performance features at an unbelievable price point. Built with KPA (Kinetic Polymer Alloy) shell for maximum energy dispersion and lightweight handling on long tours.",
+    "specifications": {
+      "Certification": "ECE 22.06 & DOT Certified",
+      "Shell Material": "KPA (Kinetic Polymer Alloy)",
+      "Visor": "Twin Shield System with Drop-down Sun Visor, Pinlock 70 Ready",
+      "Weight": "1530 ± 50g",
+      "Fastening": "Reinforced steel quick-release chin strap"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "sizes": [
+      "M (57-58cm)",
+      "L (59-60cm)",
+      "XL (61-62cm)"
+    ],
+    "colours": [
+      "Matt Titanium",
+      "Gloss Black",
+      "Racer Blue"
+    ],
+    "availability": "out_of_stock",
+    "featured": false,
+    "newArrival": true,
+    "popular": false,
+    "badge": "High Demand",
+    "rating": 4.9,
+    "reviewCount": 15,
+    "stockQuantity": 0,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 8400,
+    "discountPercent": 9,
+    "createdAt": "2026-09-11T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-helm-05",
+    "slug": "axor-retro-jet-open-face-helmet",
+    "name": "Axor Retro Jet Classic Helmet",
+    "brand": "Axor",
+    "category": "Helmets",
+    "subCategory": "Open Face",
+    "price": 2850,
+    "mrp": 3200,
+    "images": [
+      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Designed for cafe racer and classic cruiser enthusiasts. Combines authentic retro aesthetics with modern EPS safety, leather-finish neck roll, and chrome visor trim.",
+    "specifications": {
+      "Certification": "ISI & DOT Approved",
+      "Shell": "Thermoplastic reinforced composite",
+      "Visor": "Integrated pull-down bubble sun visor",
+      "Weight": "1150 grams",
+      "Fit": "Ergonomic leatherette cushioned interior"
+    },
+    "compatibleBikes": [
+      "Universal",
+      "Hunter 350",
+      "Classic 350 (Reborn)",
+      "Interceptor 650",
+      "Ronin 225",
+      "H'ness CB350"
+    ],
+    "sizes": [
+      "M (57-58cm)",
+      "L (59-60cm)"
+    ],
+    "colours": [
+      "Matte Black Leather",
+      "Desert Tan",
+      "British Racing Green"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "badge": "Retro Classic",
+    "rating": 4.7,
+    "reviewCount": 31,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 2850,
+    "discountPercent": 11,
+    "createdAt": "2026-09-12T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-helm-06",
+    "slug": "smk-gullwing-modular-flipup-helmet",
+    "name": "SMK Gullwing Modular Flip-Up Helmet",
+    "brand": "SMK",
+    "category": "Helmets",
+    "subCategory": "Modular",
+    "price": 5200,
+    "mrp": 5800,
+    "images": [
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Dual P/J homologated flip-up helmet allowing safe riding in both open-face and full-face configurations. Features one-touch chin guard release, internal sun visor, and channelled EPS ventilation for endurance touring.",
+    "specifications": {
+      "Certification": "Dual Homologation P/J ECE 22.05 & ISI",
+      "Mechanism": "Single push metal chin bar locking system",
+      "Visor": "Extra-wide viewport with Pinlock 30 lens included",
+      "Weight": "1700 grams"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "sizes": [
+      "M (57-58cm)",
+      "L (59-60cm)",
+      "XL (61-62cm)"
+    ],
+    "colours": [
+      "Matte Anthracite",
+      "Gloss White",
+      "Stealth Black"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": false,
+    "rating": 4.6,
+    "reviewCount": 22,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 5200,
+    "discountPercent": 10,
+    "createdAt": "2026-09-13T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-helm-07",
+    "slug": "axor-x-cross-dual-sport-helmet",
+    "name": "Axor X-Cross Dual Sport Adventure Helmet",
+    "brand": "Axor",
+    "category": "Helmets",
+    "subCategory": "Adventure/Off-road",
+    "price": 4600,
+    "mrp": 5100,
+    "images": [
+      "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The ultimate dual-sport helmet for adventure touring and trail riding. Built with an aerodynamic aerodynamic peak that deflects debris while allowing highway crosswinds to pass cleanly.",
+    "specifications": {
+      "Certification": "DOT & ECE 22.05 Approved",
+      "Peak": "Adjustable multi-position off-road aerodynamic peak",
+      "Visor": "Dual visor with internal drop-down dark visor",
+      "Goggle Compatibility": "Accommodates off-road motocross goggles when visor is removed",
+      "Weight": "1650 grams"
+    },
+    "compatibleBikes": [
+      "Universal",
+      "Himalayan 450",
+      "390 Adventure",
+      "Scrambler 400X",
+      "V-Strom SX 250",
+      "G 310 GS",
+      "Scram 411"
+    ],
+    "sizes": [
+      "M (57-58cm)",
+      "L (59-60cm)",
+      "XL (61-62cm)"
+    ],
+    "colours": [
+      "Matte Camo Grey",
+      "Dakar Orange",
+      "Stealth Matte Black"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": true,
+    "popular": true,
+    "badge": "ADV Essential",
+    "rating": 4.8,
+    "reviewCount": 28,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 4600,
+    "discountPercent": 10,
+    "createdAt": "2026-09-14T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-acc-01",
+    "slug": "pinlock-70-max-vision-anti-fog-lens",
+    "name": "Pinlock 70 MaxVision Anti-Fog Insert Lens",
+    "brand": "Pinlock",
+    "category": "Helmets",
+    "subCategory": "Helmet Accessories",
+    "price": 1850,
+    "mrp": 2100,
+    "images": [
+      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Say goodbye to dangerous visor fogging during Coimbatore rains or high-altitude Ooty/Kodaikanal misty rides. The Pinlock 70 creates a double-glaze thermal barrier preventing condensation.",
+    "specifications": {
+      "Compatibility": "MT Thunder 4 / Axor Apex Pinlock 70 ready visors",
+      "Technology": "Dry hydro-absorbent silicone bead seal",
+      "Origin": "Manufactured in Netherlands"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.9,
+    "reviewCount": 54,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1850,
+    "discountPercent": 12,
+    "createdAt": "2026-09-15T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-acc-02",
+    "slug": "axor-apex-dark-smoke-visor",
+    "name": "Axor Apex Replacement Visor - Dark Smoke",
+    "brand": "Axor",
+    "category": "Helmets",
+    "subCategory": "Helmet Accessories",
+    "price": 950,
+    "mrp": 1100,
+    "images": [
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Original OEM replacement dark smoke visor for Axor Apex helmets. Features anti-scratch optical coating and UV400 sun blocking.",
+    "specifications": {
+      "Compatibility": "Axor Apex / Street helmets",
+      "Tint": "Dark Smoke 80% tint (Daytime use)",
+      "Material": "Optical grade polycarbonate"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "colours": [
+      "Dark Smoke",
+      "Iridium Gold",
+      "Rainbow Chrome",
+      "Clear"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": false,
+    "rating": 4.7,
+    "reviewCount": 38,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 950,
+    "discountPercent": 14,
+    "createdAt": "2026-09-16T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.720Z"
+  },
+  {
+    "id": "bp-acc-03",
+    "slug": "mt-thunder-4-aero-race-spoiler",
+    "name": "MT Thunder 4 SV Aerodynamic Race Spoiler",
+    "brand": "MT Helmets",
+    "category": "Helmets",
+    "subCategory": "Helmet Accessories",
+    "price": 1250,
+    "mrp": 1450,
+    "images": [
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Clip-on extended racing spoiler for MT Thunder 4 SV. Enhances helmet stability at high highway speeds and gives your lid a hyper-aggressive race-spec aesthetic.",
+    "specifications": {
+      "Installation": "Tool-less snap-fit with 3M automotive adhesive backing",
+      "Material": "Shatterproof acrylic"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "colours": [
+      "Gloss Smoke Black",
+      "Fluorescent Green",
+      "Carbon Style"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": true,
+    "popular": false,
+    "rating": 4.8,
+    "reviewCount": 16,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1250,
+    "discountPercent": 14,
+    "createdAt": "2026-09-17T14:22:57.720Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-01",
+    "slug": "himalayan-450-heavy-duty-crash-guard",
+    "name": "Heavy-Duty Crash Guard with Sliders for Himalayan 450",
+    "brand": "Moto Torque",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Crash Guards",
+    "price": 4799,
+    "mrp": 5499,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Engineered specifically for the new Royal Enfield Himalayan 450 Sherpa engine. Built from cold-rolled seamless steel pipes with CNC machined delrin sliders that absorb primary fall impact and protect engine casings and fuel tank.",
+    "specifications": {
+      "Compatibility": "Royal Enfield Himalayan 450 (2023 - 2026)",
+      "Pipe Diameter": "25.4mm x 2mm wall thickness",
+      "Coating": "Dual coat textured black powder coating with anti-rust phosphate bath",
+      "Hardware": "Grade 8.8 high-tensile stainless steel fasteners included",
+      "Protection": "Crankcase, radiator corners, fuel tank flanks"
+    },
+    "compatibleBikes": [
+      "Himalayan 450"
+    ],
+    "colours": [
+      "Textured Matte Black"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": true,
+    "popular": true,
+    "badge": "Must-Have For H450",
+    "rating": 4.9,
+    "reviewCount": 36,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 4799,
+    "discountPercent": 13,
+    "createdAt": "2026-09-18T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-02",
+    "slug": "ktm-duke-390-gen3-engine-crash-cage",
+    "name": "KTM Duke 390 (Gen 3) Engine Crash Guard & Sliders",
+    "brand": "Zana",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Crash Guards",
+    "price": 3899,
+    "mrp": 4499,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Compact yet brutal protection designed specifically for the Gen-3 KTM 390 Duke chassis. Safeguards the engine head and low-slung frame during track drops and city spills.",
+    "specifications": {
+      "Compatibility": "KTM 390 Duke (2024 - 2026)",
+      "Slider Material": "High-density UHMW Polyethylene sliders",
+      "Mounting Points": "Triangulated 3-point frame mounting for load distribution"
+    },
+    "compatibleBikes": [
+      "390 Duke (Gen 3)",
+      "250 Duke"
+    ],
+    "colours": [
+      "KTM Orange Accent",
+      "Matte Black"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.8,
+    "reviewCount": 24,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 3899,
+    "discountPercent": 13,
+    "createdAt": "2026-09-19T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-03",
+    "slug": "triumph-speed-400-engine-guard",
+    "name": "Triumph Speed 400 / Scrambler 400X Compact Engine Guard",
+    "brand": "Moto Torque",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Crash Guards",
+    "price": 3450,
+    "mrp": 3999,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Sleek, low-profile tubular guard complementing the neo-retro lines of the Triumph Speed 400 and Scrambler 400X while offering reliable engine block shield.",
+    "specifications": {
+      "Compatibility": "Triumph Speed 400 & Scrambler 400X",
+      "Finish": "Electrophoretic deposition (EPD) matte black",
+      "Installation": "Direct bolt-on, no drill or modification required"
+    },
+    "compatibleBikes": [
+      "Speed 400",
+      "Scrambler 400X"
+    ],
+    "colours": [
+      "Satin Black"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": true,
+    "popular": true,
+    "rating": 4.8,
+    "reviewCount": 18,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 3450,
+    "discountPercent": 14,
+    "createdAt": "2026-09-20T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-04",
+    "slug": "hunter-350-compact-engine-guard",
+    "name": "Royal Enfield Hunter 350 Urban Engine Crash Guard",
+    "brand": "Zana",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Crash Guards",
+    "price": 2650,
+    "mrp": 3100,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Compact urban crash guard tailor-made for the agility of the Hunter 350. Prevents side panel scrapes without widening the motorcycle profile in Coimbatore city traffic.",
+    "specifications": {
+      "Compatibility": "Royal Enfield Hunter 350",
+      "Material": "Cold-rolled structural steel tubing"
+    },
+    "compatibleBikes": [
+      "Hunter 350"
+    ],
+    "colours": [
+      "Gloss Black",
+      "Matte Black"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.7,
+    "reviewCount": 27,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 2650,
+    "discountPercent": 15,
+    "createdAt": "2026-09-21T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-05",
+    "slug": "barkbusters-vps-heavy-duty-handguards",
+    "name": "Barkbusters VPS Aluminum Backbone Handguards",
+    "brand": "Barkbusters",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Hand Guards",
+    "price": 8990,
+    "mrp": 9800,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The gold standard for adventure and trail hand protection. Australian designed heat-treated full-wrap aluminum backbone shields clutch/brake levers and hands from tree branches and tarmac falls.",
+    "specifications": {
+      "Backbone": "Solid heat-treated aircraft aluminum backbone",
+      "Shield": "High-impact UV-stabilized VPS plastic deflector",
+      "Deflector": "Adjustable height wind deflector included"
+    },
+    "compatibleBikes": [
+      "Himalayan 450",
+      "390 Adventure",
+      "Scrambler 400X",
+      "V-Strom SX 250",
+      "G 310 GS",
+      "Dominar 400"
+    ],
+    "colours": [
+      "Black Shell / White Logo",
+      "Orange Shell",
+      "White Shell"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": true,
+    "badge": "Pro Choice",
+    "rating": 4.9,
+    "reviewCount": 39,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 8990,
+    "discountPercent": 8,
+    "createdAt": "2026-09-22T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-06",
+    "slug": "universal-adventure-handguards-metal-spine",
+    "name": "Adventure Reinforced Handguards with Metal Spine",
+    "brand": "Motowolf",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Hand Guards",
+    "price": 1950,
+    "mrp": 2400,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Affordable dual-point mounted handguards with internal alloy reinforcing bar for city and tourer bikes with 22mm or 28mm handlebars.",
+    "specifications": {
+      "Handlebar Compatibility": "Fits 22mm (7/8 inch) and 28mm fatbars",
+      "Material": "ABS shield with aluminum alloy backbone"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "colours": [
+      "Stealth Black",
+      "Carbon Print",
+      "Smoke Tint"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": false,
+    "rating": 4.6,
+    "reviewCount": 22,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1950,
+    "discountPercent": 19,
+    "createdAt": "2026-09-23T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-07",
+    "slug": "cnc-stealth-bar-end-mirrors",
+    "name": "CNC Billet Aluminum Bar-End Stealth Mirrors (Pair)",
+    "brand": "Grand Pitstop",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Mirrors",
+    "price": 1850,
+    "mrp": 2300,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Transform your bike's silhouette with these high-clarity anti-glare blue convex bar-end mirrors. CNC machined from T6061 aviation grade aluminum alloy with 360-degree ball joint articulation.",
+    "specifications": {
+      "Mirror Glass": "Convex blue anti-glare glass with wide FOV",
+      "Material": "T6 6061 Billet Aluminum with black anodizing",
+      "Fitment": "Expander sleeves included for 13mm to 18mm internal handlebar diameter"
+    },
+    "compatibleBikes": [
+      "Universal",
+      "Continental GT 650",
+      "Interceptor 650",
+      "Hunter 350",
+      "Speed 400",
+      "390 Duke (Gen 3)",
+      "YZF R15 V4",
+      "MT-15 V2",
+      "Apache RTR 310"
+    ],
+    "colours": [
+      "Anodized Black"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": true,
+    "badge": "Trending Style",
+    "rating": 4.8,
+    "reviewCount": 47,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 1850,
+    "discountPercent": 20,
+    "createdAt": "2026-09-24T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-08",
+    "slug": "6-stage-cnc-adjustable-foldable-levers",
+    "name": "6-Stage Adjustable & Foldable CNC Lever Set",
+    "brand": "Grand Pitstop",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Levers",
+    "price": 1950,
+    "mrp": 2499,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Precision engineered clutch and brake lever pair with 6 adjustable reach settings. Foldable hinge prevents snapping if the bike drops.",
+    "specifications": {
+      "Adjustment": "6-position clicker lever reach adjuster",
+      "Safety Mechanism": "90-degree fold-up safety pivot",
+      "Material": "CNC machined T6 aluminum"
+    },
+    "compatibleBikes": [
+      "YZF R15 V4",
+      "MT-15 V2",
+      "390 Duke (Gen 3)",
+      "RC 390",
+      "Apache RTR 200 4V",
+      "Speed 400"
+    ],
+    "colours": [
+      "Black with Red Clicker",
+      "All Matte Black",
+      "Titanium Grey"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.7,
+    "reviewCount": 33,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1950,
+    "discountPercent": 22,
+    "createdAt": "2026-09-25T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-09",
+    "slug": "heavy-stainless-steel-bar-end-weights",
+    "name": "Heavy-Duty Vibration Damping Bar-End Weights (350g)",
+    "brand": "Zana",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Bar Ends",
+    "price": 850,
+    "mrp": 1100,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Eliminate uncomfortable handlebar buzz and tingling fingers on long highway runs. Made of solid 304 grade stainless steel with high mass resonance damping.",
+    "specifications": {
+      "Weight": "350 grams pair",
+      "Material": "Solid 304 Stainless Steel",
+      "Benefit": "Reduces high frequency mirror vibration and hand fatigue"
+    },
+    "compatibleBikes": [
+      "Universal",
+      "Himalayan 450",
+      "Hunter 350",
+      "Classic 350 (Reborn)",
+      "390 Duke (Gen 3)",
+      "Speed 400",
+      "Dominar 400"
+    ],
+    "colours": [
+      "Satin Silver",
+      "Black Powder Coat"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": false,
+    "rating": 4.8,
+    "reviewCount": 20,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 850,
+    "discountPercent": 23,
+    "createdAt": "2026-09-26T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-10",
+    "slug": "wide-touring-footpegs-rubber-dampers",
+    "name": "Wide Touring Footpegs with Removable Rubber Inserts",
+    "brand": "Moto Torque",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Footrests",
+    "price": 2200,
+    "mrp": 2600,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Provides 40% larger contact surface than stock pegs for comfortable stand-up trail riding and all-day saddle touring.",
+    "specifications": {
+      "Width": "55mm wide platform with serrated stainless teeth",
+      "Inserts": "Vibration isolating removable rubber cushion pads"
+    },
+    "compatibleBikes": [
+      "Himalayan 450",
+      "390 Adventure",
+      "Scrambler 400X",
+      "V-Strom SX 250"
+    ],
+    "colours": [
+      "Natural Silver",
+      "Textured Black"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": true,
+    "popular": false,
+    "rating": 4.8,
+    "reviewCount": 14,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 2200,
+    "discountPercent": 15,
+    "createdAt": "2026-09-27T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-11",
+    "slug": "bobo-claw-grip-mobile-holder-vibration-dampener",
+    "name": "BOBO Claw-Grip Mobile Holder with Vibration Dampener",
+    "brand": "Bobo",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Mobile Holders",
+    "price": 2199,
+    "mrp": 2799,
+    "images": [
+      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Protects delicate smartphone camera optical image stabilizers (OIS) from engine vibrations. Precision elastomer suspension dampens harmonic vibration at all RPMs with rugged 4-finger locking claw.",
+    "specifications": {
+      "Shock Absorption": "Built-in 4-point elastomer camera vibration dampener",
+      "Phone Size": "Supports 4.7 inch up to 7.2 inch smartphones (including heavy cases)",
+      "Mounting": "Both Handlebar clamp (22mm-32mm) & Rear view mirror base included",
+      "Material": "Aviation Aluminum alloy + Nylon engineering composite"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "colours": [
+      "Stealth Black"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": true,
+    "badge": "OIS Safe Bestseller",
+    "rating": 4.9,
+    "reviewCount": 88,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 2199,
+    "discountPercent": 21,
+    "createdAt": "2026-09-28T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-12",
+    "slug": "motowolf-quick-release-phone-mount",
+    "name": "Motowolf All-Metal Quick Grip Phone Mount",
+    "brand": "Motowolf",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Mobile Holders",
+    "price": 1350,
+    "mrp": 1700,
+    "images": [
+      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Heavy-duty full metal phone mount with spring-loaded clamp and safety rubber tether for zero slip on highway runs.",
+    "specifications": {
+      "Material": "100% CNC Aluminum alloy construction",
+      "Rotation": "360-degree ball head rotation"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "colours": [
+      "Black",
+      "Silver"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.7,
+    "reviewCount": 45,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1350,
+    "discountPercent": 21,
+    "createdAt": "2026-09-29T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-13",
+    "slug": "waterproof-dual-qc-typec-fast-charger",
+    "name": "Dual Port QC 3.0 + Type-C Fast Charger with Switch & Voltmeter",
+    "brand": "Grand Pitstop",
+    "category": "Motorcycle Accessories",
+    "subCategory": "USB Chargers",
+    "price": 1199,
+    "mrp": 1599,
+    "images": [
+      "https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Keep your smartphone and action cameras charged on non-stop tours. Provides 30W Power Delivery (Type-C) and 18W QC3.0 with digital real-time battery voltage readout and waterproof sealing cap.",
+    "specifications": {
+      "Ports": "1x USB-A (Quick Charge 3.0) + 1x USB Type-C (30W PD Fast Charge)",
+      "Display": "Digital LED Real-time Battery Voltmeter",
+      "Switch": "Independent ON/OFF power switch prevents battery drain",
+      "Waterproofing": "IP66 waterproof rubber seal cap with in-line safety fuse"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": true,
+    "popular": true,
+    "badge": "Fast 30W PD",
+    "rating": 4.8,
+    "reviewCount": 39,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1199,
+    "discountPercent": 25,
+    "createdAt": "2026-09-30T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-14",
+    "slug": "heavy-duty-waterproof-all-weather-bike-cover",
+    "name": "Heavy Duty 100% Waterproof All-Weather Bike Cover",
+    "brand": "Grand Pitstop",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Bike Covers",
+    "price": 1450,
+    "mrp": 1899,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Built to withstand harsh Coimbatore sunlight, monsoon downpours, and dust. Features mirror pockets, elastic bottom hem, central belly buckle, and anti-theft lock holes.",
+    "specifications": {
+      "Fabric": "Heavy 300D Oxford polyester with heat-resistant inner lining",
+      "Protection": "100% Waterproof taped seams, UV resistant, Dustproof",
+      "Security": "Front wheel metal grommet lock holes"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "sizes": [
+      "Standard (R15, Hunter, Duke)",
+      "Large / ADV (Himalayan, Dominar, Interceptor)"
+    ],
+    "colours": [
+      "Navy Blue with Silver Inner",
+      "All Black with Orange Piping"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.8,
+    "reviewCount": 62,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1450,
+    "discountPercent": 24,
+    "createdAt": "2026-10-01T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-15",
+    "slug": "stainless-steel-radiator-guard-himalayan-450",
+    "name": "Stainless Steel Laser Cut Radiator Guard for Himalayan 450",
+    "brand": "Moto Torque",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Radiator Guards",
+    "price": 1650,
+    "mrp": 1950,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Protects fragile liquid cooling radiator fins from flying gravel and highway debris thrown up by the front wheel without compromising cooling airflow.",
+    "specifications": {
+      "Material": "1.5mm high grade 304 stainless steel",
+      "Design": "Hexagonal honeycomb mesh optimized for thermodynamics",
+      "Installation": "Mounts on OEM chassis mounts"
+    },
+    "compatibleBikes": [
+      "Himalayan 450"
+    ],
+    "colours": [
+      "Brushed Silver",
+      "Powder Coated Black"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": true,
+    "popular": false,
+    "rating": 4.9,
+    "reviewCount": 17,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 1650,
+    "discountPercent": 15,
+    "createdAt": "2026-10-02T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-16",
+    "slug": "grand-pitstop-tubeless-puncture-repair-kit",
+    "name": "Grand Pitstop Tubeless Tyre Mushroom Plug Puncture Kit",
+    "brand": "Grand Pitstop",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Emergency & Tools",
+    "price": 1899,
+    "mrp": 2299,
+    "images": [
+      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Patented screw-action mushroom plug gun system that permanently seals tubeless motorcycle tyres in under 5 minutes without dismounting the wheel rim. Mushroom head seals from the inside under air pressure.",
+    "specifications": {
+      "Contents": "Puncture Gun, Probe tool, Nozzle, 15 Mushroom Plugs, Retractable Cutter, Travel Pouch",
+      "Plug Type": "Self-vulcanizing rubber mushroom plugs",
+      "Operation": "Screw-driven mechanical plunge (zero muscle strain)",
+      "Compatibility": "All tubeless motorcycle and scooter tyres"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": true,
+    "badge": "Highway Essential",
+    "rating": 4.9,
+    "reviewCount": 78,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1899,
+    "discountPercent": 17,
+    "createdAt": "2026-10-03T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-17",
+    "slug": "grand-pitstop-mini-electric-tyre-inflator-150psi",
+    "name": "Grand Pitstop Mini Electric Tyre Inflator 150 PSI",
+    "brand": "Grand Pitstop",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Emergency & Tools",
+    "price": 3499,
+    "mrp": 3999,
+    "images": [
+      "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Rechargeable 4000mAh battery-powered digital tyre inflator with preset pressure auto-stop, digital LCD gauge, and high-lumen SOS emergency flashlight. Fills a rear motorcycle tyre from flat to 35 PSI in 3 minutes.",
+    "specifications": {
+      "Max Pressure": "150 PSI / 10.3 BAR",
+      "Battery": "4000mAh Lithium-ion USB-C fast charging",
+      "Display": "Digital backlit LCD with auto-cutoff sensor",
+      "Emergency Features": "Built-in SOS emergency strobe & work light, Powerbank output",
+      "Weight": "420 grams compact pocket chassis"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": true,
+    "popular": true,
+    "badge": "Must-Have",
+    "rating": 4.8,
+    "reviewCount": 54,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 3499,
+    "discountPercent": 13,
+    "createdAt": "2026-10-04T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-moto-18",
+    "slug": "grand-pitstop-16-in-1-motorcycle-multitool",
+    "name": "Grand Pitstop 16-in-1 Folding Motorcycle Multi-Tool Kit",
+    "brand": "Grand Pitstop",
+    "category": "Motorcycle Accessories",
+    "subCategory": "Emergency & Tools",
+    "price": 999,
+    "mrp": 1299,
+    "images": [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "High-tensile chrome-vanadium steel folding multi-tool engineered specifically for roadside motorcycle adjustments. Includes 6 hex keys (2mm to 6mm), socket wrench set (8/9/10mm), spoke wrench, and flat/phillips screwdrivers.",
+    "specifications": {
+      "Material": "Drop forged Chrome Vanadium (CR-V) Steel",
+      "Tools Included": "Hex 2/2.5/3/4/5/6mm, Sockets 8/9/10mm, Slotted & Phillips Screwdriver, Spoke Wrench",
+      "Portability": "Pocket-sized folding Swiss-style design with belt loop pouch",
+      "Weight": "210 grams"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "badge": "Roadside Tool",
+    "rating": 4.7,
+    "reviewCount": 39,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 999,
+    "discountPercent": 23,
+    "createdAt": "2026-10-05T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-light-01",
+    "slug": "maddog-scout-auxiliary-fog-light-kit",
+    "name": "Maddog Scout Auxiliary Fog Light Kit (30W)",
+    "brand": "Maddog",
+    "category": "Lighting",
+    "subCategory": "Auxiliary Lights",
+    "price": 5750,
+    "mrp": 6400,
+    "images": [
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "India's favorite touring fog lights. The Maddog Scout produces 3000 lumens per pair of crisp hybrid beam penetrating thick fog, night highway tarmac, and unlit ghat sections with ease.",
+    "specifications": {
+      "Power": "30 Watts per pair (15W each pod)",
+      "Luminous Output": "3000 Lumens raw output",
+      "Beam Pattern": "Combo Spot & Flood 18-degree spot + 40-degree flood",
+      "Waterproofing": "IP67 Submersible waterproof rating",
+      "LED Chips": "High intensity Osram automotive grade diodes",
+      "Operating Voltage": "9V - 32V DC",
+      "Warranty": "18 Months Replacement Warranty from Maddog"
+    },
+    "compatibleBikes": [
+      "Universal",
+      "Himalayan 450",
+      "390 Adventure",
+      "Speed 400",
+      "Scrambler 400X",
+      "Interceptor 650",
+      "V-Strom SX 250",
+      "Dominar 400"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": false,
+    "popular": true,
+    "badge": "18M Warranty",
+    "rating": 4.9,
+    "reviewCount": 71,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 5750,
+    "discountPercent": 10,
+    "createdAt": "2026-10-06T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-light-02",
+    "slug": "maddog-alpha-flagship-fog-light-kit",
+    "name": "Maddog Alpha Flagship Auxiliary Lights (80W)",
+    "brand": "Maddog",
+    "category": "Lighting",
+    "subCategory": "Auxiliary Lights",
+    "price": 9750,
+    "mrp": 10800,
+    "images": [
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Monstrous 9600 lumens output engineered for extreme endurance night rides and rally adventures. Features thermal management heat sinks and cast aluminum aerospace housing.",
+    "specifications": {
+      "Power": "80 Watts per pair",
+      "Luminous Output": "9600 Lumens output",
+      "Distance": "Throws high beam light up to 350 meters ahead",
+      "Housing": "CNC machined 6063 aluminum housing with Mil-spec hard anodizing"
+    },
+    "compatibleBikes": [
+      "Universal",
+      "Himalayan 450",
+      "390 Adventure",
+      "Super Meteor 650",
+      "Versys 650",
+      "G 310 GS"
+    ],
+    "availability": "in_stock",
+    "featured": true,
+    "newArrival": true,
+    "popular": true,
+    "badge": "Flagship 9600LM",
+    "rating": 5,
+    "reviewCount": 29,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 9750,
+    "discountPercent": 10,
+    "createdAt": "2026-10-07T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-light-03",
+    "slug": "nighteye-h4-led-headlight-conversion-bulb",
+    "name": "NightEye H4 CSP LED Headlight Bulb (6500K Crystal White)",
+    "brand": "NightEye",
+    "category": "Lighting",
+    "subCategory": "LED Lights",
+    "price": 1350,
+    "mrp": 1800,
+    "images": [
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Plug-and-play direct upgrade for dull stock halogen H4 bulbs. 300% brighter than standard halogen with razor sharp cutoff line that doesn't blind oncoming traffic.",
+    "specifications": {
+      "Socket Type": "H4 (Hi/Lo dual beam)",
+      "Color Temperature": "6500K Pure White",
+      "Luminous Flux": "8000 Lumens",
+      "Cooling": "12,000 RPM whisper-quiet turbo cooling fan",
+      "Life Span": "> 50,000 hours"
+    },
+    "compatibleBikes": [
+      "Universal",
+      "Hunter 350",
+      "Classic 350 (Reborn)",
+      "Interceptor 650",
+      "Continental GT 650",
+      "H'ness CB350",
+      "Ronin 225"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.8,
+    "reviewCount": 53,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1350,
+    "discountPercent": 25,
+    "createdAt": "2026-10-08T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-light-04",
+    "slug": "flowing-sequential-matrix-led-indicators",
+    "name": "Flowing Sequential Matrix LED Turn Indicators (Set of 4)",
+    "brand": "Grand Pitstop",
+    "category": "Lighting",
+    "subCategory": "Indicators",
+    "price": 1250,
+    "mrp": 1699,
+    "images": [
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Dynamic Audi-style flowing amber indicators made with flexible high-elasticity rubber stems that resist accidental breakage in tight parking spots.",
+    "specifications": {
+      "Quantity": "Full set of 4 indicators",
+      "Light Mode": "Flowing sequential chasing amber light + DRL accent",
+      "Stem": "High flexibility bendable rubber stem",
+      "Waterproofing": "IP68 Sealed silicone casing"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.7,
+    "reviewCount": 34,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": false,
+    "offerPrice": 1250,
+    "discountPercent": 26,
+    "createdAt": "2026-10-09T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  },
+  {
+    "id": "bp-light-05",
+    "slug": "maddog-pro-wiring-harness-relay-dual-switch",
+    "name": "Maddog Pro Wiring Harness Kit with Relay & Handlebar Switch",
+    "brand": "Maddog",
+    "category": "Lighting",
+    "subCategory": "Electrical Accessories",
+    "price": 1850,
+    "mrp": 2100,
+    "images": [
+      "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Essential plug-and-play wiring kit for connecting auxiliary fog lights safely without cutting or slicing OEM motorcycle factory wiring, preserving warranty.",
+    "specifications": {
+      "Relay": "40 Amp water-sealed automotive relay",
+      "Wire Gauge": "Finely stranded tin-plated pure copper automotive grade 16 AWG cable",
+      "Protection": "Heavy braided nylon wire sleeve with in-line ceramic fuse",
+      "Switch": "CNC machined waterproof handlebar toggle switch included"
+    },
+    "compatibleBikes": [
+      "Universal"
+    ],
+    "availability": "in_stock",
+    "featured": false,
+    "newArrival": false,
+    "popular": true,
+    "rating": 4.9,
+    "reviewCount": 46,
+    "stockQuantity": 10,
+    "published": true,
+    "onOffer": true,
+    "offerPrice": 1850,
+    "discountPercent": 12,
+    "createdAt": "2026-10-10T14:22:57.721Z",
+    "updatedAt": "2026-10-08T14:22:57.721Z"
+  }
+]

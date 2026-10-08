@@ -4,6 +4,7 @@ import { CartProvider } from '@/context/CartContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+import AskBikerzWidget from '@/components/AskBikerzWidget';
 import { BUSINESS_CONFIG } from '@/data/business';
 
 export const metadata: Metadata = {
@@ -44,6 +45,7 @@ export default function RootLayout({
           </main>
           <Footer />
           <FloatingWhatsApp />
+          <AskBikerzWidget />
         </CartProvider>
       </body>
     </html>

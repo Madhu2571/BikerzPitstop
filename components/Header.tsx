@@ -32,12 +32,13 @@ export default function Header() {
   const [requestModalOpen, setRequestModalOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '/' },
-    { name: 'Shop All', href: '/shop' },
+    { name: 'Shop', href: '/shop' },
     { name: 'Helmets', href: '/helmets' },
     { name: 'Accessories', href: '/accessories' },
-    { name: 'Shop by Bike', href: '/shop-by-bike' },
-    { name: 'Help', href: '/help' },
+    { name: 'Fit My Bike 🏍️', href: '/fit-my-bike' },
+    { name: 'Build My Bike 🏗️', href: '/build-my-bike' },
+    { name: 'Emergency Kit 🚨', href: '/emergency-kit' },
+    { name: 'Ask Bikerz 🤖', href: '/ask-bikerz' },
     { name: 'Contact', href: '/contact' },
   ];
 

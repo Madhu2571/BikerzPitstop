@@ -17,7 +17,10 @@ import {
   Flame,
   Zap,
   MapPin,
-  Clock
+  Clock,
+  Bot,
+  Wrench,
+  ShieldAlert
 } from 'lucide-react';
 import { PRODUCTS } from '@/data/products';
 import { POPULAR_BIKE_BRANDS } from '@/data/bikes';
@@ -129,6 +132,130 @@ export default function HomePage() {
                 <span className="font-semibold text-zinc-200">Coimbatore Workshop</span>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================ */}
+      {/* 1.5. RIDER TOOLS & INTERACTIVE FEATURES                      */}
+      {/* ============================================================ */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-gradient-to-b from-pitstop-900 to-pitstop-950 border border-pitstop-800 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4 border-b border-pitstop-800/80 pb-6">
+            <div>
+              <div className="inline-flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-racing-orange mb-2">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Interactive Customer Tools</span>
+              </div>
+              <h2 className="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight">
+                Built for <span className="text-racing-orange">Real Riders</span>
+              </h2>
+              <p className="text-xs sm:text-sm text-pitstop-300 mt-1 max-w-xl">
+                Explore zero-guesswork fitment, zone-by-zone bike builds, roadside survival packages, and intelligent live inventory assistance.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            {/* Card 1: Will This Fit My Bike? */}
+            <Link
+              href="/fit-my-bike"
+              className="group bg-pitstop-850 hover:bg-pitstop-800 border border-pitstop-700/80 hover:border-racing-orange/80 rounded-2xl p-5 flex flex-col justify-between transition-all duration-300 shadow-lg hover:shadow-racing-orange/10"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-pitstop-900 border border-pitstop-700 flex items-center justify-center text-racing-orange group-hover:scale-110 transition-transform mb-4">
+                  <Bike className="w-6 h-6" />
+                </div>
+                <div className="text-[10px] font-black uppercase tracking-wider text-pitstop-400">
+                  Feature 1
+                </div>
+                <h3 className="text-lg font-black text-white group-hover:text-racing-orange transition-colors mt-0.5">
+                  Will This Fit My Bike?
+                </h3>
+                <p className="text-xs text-pitstop-300 mt-2 leading-relaxed">
+                  Select your exact brand, model, and year to see verified compatible parts with zero guesswork.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-pitstop-750 flex items-center justify-between text-xs font-bold text-racing-orange">
+                <span>Check Fitment</span>
+                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+
+            {/* Card 2: Build My Bike */}
+            <Link
+              href="/build-my-bike"
+              className="group bg-pitstop-850 hover:bg-pitstop-800 border border-pitstop-700/80 hover:border-racing-orange/80 rounded-2xl p-5 flex flex-col justify-between transition-all duration-300 shadow-lg hover:shadow-racing-orange/10"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-pitstop-900 border border-pitstop-700 flex items-center justify-center text-racing-orange group-hover:scale-110 transition-transform mb-4">
+                  <Wrench className="w-6 h-6" />
+                </div>
+                <div className="text-[10px] font-black uppercase tracking-wider text-pitstop-400">
+                  Feature 2
+                </div>
+                <h3 className="text-lg font-black text-white group-hover:text-racing-orange transition-colors mt-0.5">
+                  Build My Bike
+                </h3>
+                <p className="text-xs text-pitstop-300 mt-2 leading-relaxed">
+                  Visual zone-by-zone rig customizer: handlebars, auxiliary lights, crash guards, and covers with 1-click WhatsApp order.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-pitstop-750 flex items-center justify-between text-xs font-bold text-racing-orange">
+                <span>Build Setup</span>
+                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+
+            {/* Card 3: Emergency Rider Kit */}
+            <Link
+              href="/emergency-kit"
+              className="group bg-pitstop-850 hover:bg-pitstop-800 border border-pitstop-700/80 hover:border-red-500/80 rounded-2xl p-5 flex flex-col justify-between transition-all duration-300 shadow-lg hover:shadow-red-950/20"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-pitstop-900 border border-pitstop-700 flex items-center justify-center text-red-500 group-hover:scale-110 transition-transform mb-4">
+                  <ShieldAlert className="w-6 h-6" />
+                </div>
+                <div className="text-[10px] font-black uppercase tracking-wider text-red-400">
+                  Feature 3
+                </div>
+                <h3 className="text-lg font-black text-white group-hover:text-red-400 transition-colors mt-0.5">
+                  Emergency Rider Kit
+                </h3>
+                <p className="text-xs text-pitstop-300 mt-2 leading-relaxed">
+                  Tubeless mushroom puncture guns, mini electric inflators, CR-V multi-tools, and waterproof gear for highway peace of mind.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-pitstop-750 flex items-center justify-between text-xs font-bold text-red-400">
+                <span>Assemble Kit</span>
+                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
+
+            {/* Card 4: Ask Bikerz AI */}
+            <Link
+              href="/ask-bikerz"
+              className="group bg-pitstop-850 hover:bg-pitstop-800 border border-pitstop-700/80 hover:border-emerald-500/80 rounded-2xl p-5 flex flex-col justify-between transition-all duration-300 shadow-lg hover:shadow-emerald-950/20"
+            >
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-pitstop-900 border border-pitstop-700 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition-transform mb-4">
+                  <Bot className="w-6 h-6" />
+                </div>
+                <div className="text-[10px] font-black uppercase tracking-wider text-emerald-400">
+                  Feature 4
+                </div>
+                <h3 className="text-lg font-black text-white group-hover:text-emerald-400 transition-colors mt-0.5">
+                  Ask Bikerz AI
+                </h3>
+                <p className="text-xs text-pitstop-300 mt-2 leading-relaxed">
+                  Natural language assistant answering budget questions, model comparisons, and verified feedback without fake claims.
+                </p>
+              </div>
+              <div className="mt-5 pt-3 border-t border-pitstop-750 flex items-center justify-between text-xs font-bold text-emerald-400">
+                <span>Start Asking</span>
+                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </Link>
           </div>
         </div>
       </section>

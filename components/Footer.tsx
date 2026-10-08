@@ -139,40 +139,40 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3: Popular Bikes */}
+          {/* Col 3: Rider Tools & Customization */}
           <div>
             <h5 className="text-white text-xs font-bold uppercase tracking-wider mb-4 border-b border-pitstop-800 pb-2">
-              Popular Bike Fitments
+              Rider Tools &amp; Build
             </h5>
             <ul className="space-y-2 text-xs">
               <li>
-                <Link href="/shop-by-bike?bike=Himalayan+450" className="hover:text-racing-orange transition-colors">
-                  Royal Enfield Himalayan 450
+                <Link href="/fit-my-bike" className="text-racing-orange font-bold hover:underline flex items-center space-x-1">
+                  <span>🏍️ Will This Fit My Bike?</span>
                 </Link>
               </li>
               <li>
-                <Link href="/shop-by-bike?bike=390+Duke+(Gen+3)" className="hover:text-racing-orange transition-colors">
-                  KTM Duke 390 / 250
+                <Link href="/build-my-bike" className="text-racing-orange font-bold hover:underline flex items-center space-x-1">
+                  <span>🏗️ Build My Bike Setup</span>
                 </Link>
               </li>
               <li>
-                <Link href="/shop-by-bike?bike=Speed+400" className="hover:text-racing-orange transition-colors">
-                  Triumph Speed 400 & Scrambler 400X
+                <Link href="/emergency-kit" className="text-red-400 font-bold hover:underline flex items-center space-x-1">
+                  <span>🚨 Emergency Rider Kit</span>
                 </Link>
               </li>
               <li>
-                <Link href="/shop-by-bike?bike=Hunter+350" className="hover:text-racing-orange transition-colors">
-                  Royal Enfield Hunter 350
-                </Link>
-              </li>
-              <li>
-                <Link href="/shop-by-bike?bike=YZF+R15+V4" className="hover:text-racing-orange transition-colors">
-                  Yamaha R15 V4 / MT-15 V2
+                <Link href="/ask-bikerz" className="text-emerald-400 font-bold hover:underline flex items-center space-x-1">
+                  <span>🤖 Ask Bikerz AI Assistant</span>
                 </Link>
               </li>
               <li>
                 <Link href="/shop-by-bike" className="hover:text-racing-orange transition-colors">
-                  View All Bikes &rarr;
+                  Shop by Bike Compatibility
+                </Link>
+              </li>
+              <li>
+                <Link href="/help" className="hover:text-racing-orange transition-colors">
+                  Help &amp; Size Guides
                 </Link>
               </li>
             </ul>
