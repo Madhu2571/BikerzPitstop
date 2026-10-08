@@ -7,8 +7,10 @@ import { PRODUCTS } from '@/data/products';
 import { POPULAR_BIKE_BRANDS } from '@/data/bikes';
 import ProductCard from '@/components/ProductCard';
 import ProductRequestModal from '@/components/ProductRequestModal';
+import { useLiveProducts } from '@/hooks/useLiveProducts';
 
 function ShopByBikeContent() {
+  const { products: liveProducts } = useLiveProducts(PRODUCTS);
   const searchParams = useSearchParams();
   const queryBike = searchParams.get('bike');
 
@@ -52,7 +54,7 @@ function ShopByBikeContent() {
 
   // Filter products compatible with selected bike
   const compatibleProducts = useMemo(() => {
-    return PRODUCTS.filter((product) => {
+    return liveProducts.filter((product) => {
       const isDirectMatch = product.compatibleBikes.some((b) => 
         b.toLowerCase() === selectedModel.toLowerCase()
       );

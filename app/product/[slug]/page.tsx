@@ -1,9 +1,12 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { PRODUCTS } from '@/data/products';
+import { getProductBySlug, getAllProducts } from '@/lib/products-store';
 import { BUSINESS_CONFIG } from '@/data/business';
 import ProductDetailView from '@/components/ProductDetailView';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 interface ProductPageProps {
   params: {
@@ -11,14 +14,8 @@ interface ProductPageProps {
   };
 }
 
-export function generateStaticParams() {
-  return PRODUCTS.map((product) => ({
-    slug: product.slug,
-  }));
-}
-
-export function generateMetadata({ params }: ProductPageProps): Metadata {
-  const product = PRODUCTS.find((p) => p.slug === params.slug);
+export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
+  const product = await getProductBySlug(params.slug, true);
   if (!product) {
     return {
       title: `Product Not Found | ${BUSINESS_CONFIG.name}`,
@@ -43,14 +40,15 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
   };
 }
 
-export default function ProductDetailPage({ params }: ProductPageProps) {
-  const product = PRODUCTS.find((p) => p.slug === params.slug);
+export default async function ProductDetailPage({ params }: ProductPageProps) {
+  const product = await getProductBySlug(params.slug, false);
 
   if (!product) {
     notFound();
   }
 
-  const relatedProducts = PRODUCTS.filter(
+  const allProducts = await getAllProducts(false);
+  const relatedProducts = allProducts.filter(
     (p) => p.category === product.category && p.id !== product.id
   ).slice(0, 4);
 

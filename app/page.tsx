@@ -23,15 +23,17 @@ import { PRODUCTS } from '@/data/products';
 import { POPULAR_BIKE_BRANDS } from '@/data/bikes';
 import { BUSINESS_CONFIG } from '@/data/business';
 import ProductCard from '@/components/ProductCard';
+import { useLiveProducts } from '@/hooks/useLiveProducts';
 
 export default function HomePage() {
+  const { products: liveProducts } = useLiveProducts(PRODUCTS);
   const [selectedBrand, setSelectedBrand] = useState('Royal Enfield');
   const [selectedModel, setSelectedModel] = useState('Himalayan 450');
 
   // Products filtered for sections
-  const featuredProducts = PRODUCTS.filter((p) => p.featured).slice(0, 4);
-  const newArrivals = PRODUCTS.filter((p) => p.newArrival).slice(0, 4);
-  const popularProducts = PRODUCTS.filter((p) => p.popular).slice(0, 4);
+  const featuredProducts = liveProducts.filter((p) => p.featured).slice(0, 4);
+  const newArrivals = liveProducts.filter((p) => p.newArrival).slice(0, 4);
+  const popularProducts = liveProducts.filter((p) => p.popular).slice(0, 4);
 
   // Available models for currently selected brand in Hero Bike Selector
   const currentBrandData = POPULAR_BIKE_BRANDS.find((b) => b.brand === selectedBrand);

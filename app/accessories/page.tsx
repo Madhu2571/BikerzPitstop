@@ -6,8 +6,10 @@ import { Bike, Shield, Zap, Compass, MessageCircle } from 'lucide-react';
 import { PRODUCTS } from '@/data/products';
 import ProductCard from '@/components/ProductCard';
 import { BUSINESS_CONFIG } from '@/data/business';
+import { useLiveProducts } from '@/hooks/useLiveProducts';
 
 export default function AccessoriesPage() {
+  const { products: liveProducts } = useLiveProducts(PRODUCTS);
   const [activeSubCategory, setActiveSubCategory] = useState<string>('All');
 
   const subCategories = [
@@ -25,13 +27,13 @@ export default function AccessoriesPage() {
   ];
 
   const filteredAccessories = useMemo(() => {
-    return PRODUCTS.filter((product) => {
+    return liveProducts.filter((product) => {
       // Must be Motorcycle Accessories OR Lighting
       if (product.category === 'Helmets') return false;
       if (activeSubCategory !== 'All' && product.subCategory !== activeSubCategory) return false;
       return true;
     });
-  }, [activeSubCategory]);
+  }, [liveProducts, activeSubCategory]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">

@@ -20,8 +20,10 @@ import { Product } from '@/types';
 import ProductCard from '@/components/ProductCard';
 import ProductRequestModal from '@/components/ProductRequestModal';
 import { formatPrice } from '@/lib/whatsapp';
+import { useLiveProducts } from '@/hooks/useLiveProducts';
 
 function ShopContent() {
+  const { products: liveProducts } = useLiveProducts(PRODUCTS);
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -61,7 +63,7 @@ function ShopContent() {
 
   // Genuine Filtering Logic
   const filteredProducts = useMemo(() => {
-    return PRODUCTS.filter((product) => {
+    return liveProducts.filter((product) => {
       // Category filter
       if (selectedCategory && product.category !== selectedCategory) {
         return false;

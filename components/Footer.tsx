@@ -221,9 +221,13 @@ export default function Footer() {
         {/* Bottom copyright notice */}
         <div className="mt-12 pt-6 border-t border-pitstop-800 text-center sm:flex sm:justify-between sm:text-left text-xs text-pitstop-500">
           <p>© {new Date().getFullYear()} Bikerz Pitstop Coimbatore. All rights reserved.</p>
-          <p className="mt-2 sm:mt-0">
-            Catalog & WhatsApp Direct Ordering System | In-store pickup & courier dispatch.
-          </p>
+          <div className="mt-2 sm:mt-0 flex items-center justify-center sm:justify-end space-x-3">
+            <span>In-store pickup & courier dispatch.</span>
+            <span>&bull;</span>
+            <Link href="/admin" className="text-pitstop-500 hover:text-racing-orange transition-colors">
+              Store Admin
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

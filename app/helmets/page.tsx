@@ -6,21 +6,23 @@ import { ShieldCheck, Ruler, ArrowRight, MessageCircle } from 'lucide-react';
 import { PRODUCTS, HELMET_TYPES } from '@/data/products';
 import ProductCard from '@/components/ProductCard';
 import { BUSINESS_CONFIG } from '@/data/business';
+import { useLiveProducts } from '@/hooks/useLiveProducts';
 
 export default function HelmetsPage() {
+  const { products: liveProducts } = useLiveProducts(PRODUCTS);
   const [activeSubCategory, setActiveSubCategory] = useState<string>('All');
   const [activeBrand, setActiveBrand] = useState<string>('All');
 
   const helmetBrands = ['All', 'Axor', 'MT Helmets', 'SMK', 'LS2'];
 
   const filteredHelmets = useMemo(() => {
-    return PRODUCTS.filter((product) => {
+    return liveProducts.filter((product) => {
       if (product.category !== 'Helmets') return false;
       if (activeSubCategory !== 'All' && product.subCategory !== activeSubCategory) return false;
       if (activeBrand !== 'All' && product.brand !== activeBrand) return false;
       return true;
     });
-  }, [activeSubCategory, activeBrand]);
+  }, [liveProducts, activeSubCategory, activeBrand]);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">

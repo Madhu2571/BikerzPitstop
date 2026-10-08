@@ -55,12 +55,19 @@ export interface Product {
   colours?: string[];
   variants?: ProductVariant[];
   availability: AvailabilityStatus;
+  stockQuantity?: number;
+  published?: boolean;
+  onOffer?: boolean;
+  offerPrice?: number;
+  discountPercent?: number;
   featured?: boolean;
   newArrival?: boolean;
   popular?: boolean;
   badge?: string;
   rating?: number;
   reviewCount?: number;
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export interface BikeModel {
