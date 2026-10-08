@@ -1,4 +1,27 @@
 const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
+function getCredentials() {
+  let email = process.env.ADMIN_EMAIL || '';
+  let password = process.env.ADMIN_PASSWORD || '';
+  try {
+    const envPath = path.join(__dirname, '..', '.env.local');
+    if (fs.existsSync(envPath)) {
+      const content = fs.readFileSync(envPath, 'utf8');
+      content.split('\n').forEach(line => {
+        const match = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/);
+        if (match) {
+          const key = match[1];
+          let val = (match[2] || '').trim().replace(/^["']|["']$/g, '');
+          if (key === 'ADMIN_EMAIL' && !email) email = val;
+          if (key === 'ADMIN_PASSWORD' && !password) password = val;
+        }
+      });
+    }
+  } catch (e) {}
+  return { email, password };
+}
 
 function post(path, body, cookie = '') {
   return new Promise((resolve, reject) => {
@@ -88,8 +111,9 @@ async function runTestSuite() {
   console.log('--- RUNNING FULL 13-POINT TEST SUITE ---');
 
   // 1. Admin login
+  const creds = getCredentials();
   const login = await post('/api/admin/login', {
-    email: 'admin@bikerzpitstop.com',
+    email: creds.email,
     password: creds.password,
   });
   console.log('1. Admin Login -> HTTP', login.status);
