@@ -1,19 +1,23 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { Product } from '@/types';
 
-// Environment variables
-const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+// Dynamic environment variable helper
+function getSupabaseEnv() {
+  const url = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+  return { url, key };
+}
 
 /**
  * Returns true if Supabase cloud credentials are provided in the environment
  */
 export function isSupabaseConfigured(): boolean {
+  const { url, key } = getSupabaseEnv();
   return Boolean(
-    supabaseUrl && 
-    supabaseUrl.startsWith('https://') && 
-    supabaseServiceKey && 
-    supabaseServiceKey.length > 20
+    url && 
+    url.startsWith('https://') && 
+    key && 
+    key.length > 20
   );
 }
 
@@ -24,8 +28,9 @@ export function getSupabaseClient(): SupabaseClient | null {
   if (!isSupabaseConfigured()) {
     return null;
   }
+  const { url, key } = getSupabaseEnv();
   if (!cachedClient) {
-    cachedClient = createClient(supabaseUrl, supabaseServiceKey, {
+    cachedClient = createClient(url, key, {
       auth: {
         persistSession: false,
         autoRefreshToken: false,
