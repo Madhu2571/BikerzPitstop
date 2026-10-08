@@ -1,0 +1,25 @@
+export const BUSINESS_CONFIG = {
+  name: "Bikerz Pitstop",
+  legalName: "Bikerz Pitstop Coimbatore",
+  tagline: "Motorcycle Accessories & Helmets in Coimbatore",
+  phone: "93442 30478",
+  phoneDisplay: "+91 93442 30478",
+  phoneLink: "tel:+919344230478",
+  whatsappNumber: "919344230478",
+  whatsappBaseUrl: "https://wa.me/919344230478",
+  instagramHandle: "@bikerz_pitstop_coimbatore",
+  instagramUrl: "https://www.instagram.com/bikerz_pitstop_coimbatore/",
+  address: "485, Nanjundapuram Rd, Keelakarai, Ramanathapuram, Coimbatore, Tamil Nadu 641045",
+  shortAddress: "Ramanathapuram, Coimbatore, Tamil Nadu",
+  googleMapsUrl: "https://maps.google.com/?q=Bikerz+Pitstop,+485+Nanjundapuram+Rd,+Keelakarai,+Ramanathapuram,+Coimbatore,+Tamil+Nadu+641045",
+  hours: {
+    weekdays: "10:00 AM - 9:00 PM",
+    sunday: "10:30 AM - 7:30 PM",
+  },
+  highlights: [
+    "100% Genuine Riding Gear & Accessories",
+    "Direct WhatsApp Inquiries & Instant Price Checks",
+    "Expert Fitment Advice for Superbikes & Commuters",
+    "In-Store Pickup & Courier Dispatch Across India",
+  ],
+};
